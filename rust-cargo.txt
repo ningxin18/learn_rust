@@ -1,0 +1,10 @@
+cargo
+1.创建工程
+    cargo new hellow
+2. 编译
+    cargo build
+3.语法检查
+    cargo check
+4.创建lib
+    cargo new --lib mylib
+
