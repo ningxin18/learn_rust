@@ -1,5 +1,5 @@
 [package]
-name = "learn_closure"
+name = "closure"
 version = "0.1.0"
 authors = ["ningxin <292409083@qq.com>"]
 edition = "2018"

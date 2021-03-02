@@ -40,12 +40,12 @@ enum Message {
 //    5.枚举类型的方法以及match
 impl Message {
     fn prin(&self) {
-        match *self {
-            Message:: Quit => Println!("Quit"),
-            Message:: Move{x, y} => Println!("Move x = {}, y = {}", x, y),
-            Message:: Change(a, b, c) => Println!("Change, a = {}, b = {}, c = {}", a, b, c),
-            _ => println!("Write"),
-//            Message:: Write(&s) => println!("Writ = {}", ),
+        match self {
+            Message:: Quit => println!("Quit"),
+            Message:: Move{x, y} => println!("Move x = {}, y = {}", x, y),
+            Message:: Change(a, b, c) => println!("Change, a = {}, b = {}, c = {}", a, b, c),
+//            _ => println!("Write"),
+            Message:: Write(s) => println!("Writ = {}", s),
         }
     }
 }

@@ -1,0 +1,11 @@
+[package]
+name = "main"
+version = "0.1.0"
+authors = ["ningxin <292409083@qq.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+macro_hello = {path = "../macro_hello"}
+macro_hello_derive = {path = "../macro_hello/macro_hello_derive"}
